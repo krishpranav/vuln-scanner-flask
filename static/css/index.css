@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+.title {
+
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.url-con {
+    position: relative;
+
+}
+
+.url-con::before {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* content: "Enter Website URL"; */
+}
+
+
+
+
+#url {
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.24);
+    padding: 20px;
+    color: black;
+    font-size: 1em;
+    font-family: cursive;
+
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.none {
+    display: none;
+}
+
+.submit {
+    position: relative;
+}
+
+.submit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgba(219, 219, 219, 0);
+    z-index: -1;
+
+}
+
+.submit::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 120px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgba(128, 128, 128, 0.966);
+    z-index: -1;
+
+}
+
+
+#submit {
+
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.699);
+    width: 120px;
+    height: 40px;
+}

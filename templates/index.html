@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SQL Injection Scanner</title>
+    <script src="../static/js/index.js" defer></script>
+    <link rel="stylesheet" href="../static/css/index.css" />
+  </head>
+  <body>
+    <section>
+      <nav>
+        Kris Pentest
+      </nav>
+      <div class="title-con">
+        <p class="title">Website Vulnerability Scanner</p>
+        <p>Scan your Website for SQL Injection and Cross-Site Scripting</p>
+      </div>
+      <div class="form-con">
+        <form method="POST" action="/report">
+          <div class="url-con">
+            <input
+              type="url"
+              name="url"
+              placeholder="Enter Website URL"
+              id="url"
+              required="required"
+            />
+          </div>
+          <div class="submit">
+            <input type="submit" id="submit" value="Scan" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
