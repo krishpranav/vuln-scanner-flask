@@ -1,5 +1,6 @@
 # vuln-scanner-flask
 A flask app for scanning(xss, sql) vulnerabilities on a website
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 # Installation:
 - git clone https://github.com/krishpranav/vuln-scanner-flask
