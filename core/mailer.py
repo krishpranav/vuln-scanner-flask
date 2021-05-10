@@ -39,7 +39,7 @@ def send_email(settings, data=None):
   subject = ''
   
   if settings['action'] == 'test':
-    subject = 'Test by NERVE'
+    subject = 'Test by vulnscannerflask'
     part = MIMEText('This is a test.', 'plain')
     msg.attach(part)
     
@@ -57,7 +57,7 @@ def send_email(settings, data=None):
   
   context = ssl.create_default_context()
   
-  msg['From'] = formataddr((str(Header('NERVE Security', 'utf-8')), settings['from_addr']))
+  msg['From'] = formataddr((str(Header('vulnscannerflask Security', 'utf-8')), settings['from_addr']))
   msg['To'] = settings['to_addr']
   msg['Subject'] = subject
   

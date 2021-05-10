@@ -23,13 +23,13 @@ Refer to the OWASP CRLF Injection article for more information: https://owasp.or
     if 'http' not in module: 
       return
     
-    payload = '%0d%0aset-cookie:foo=inserted_by_nerve'
+    payload = '%0d%0aset-cookie:foo=inserted_by_vulnscannerflask'
     resp = t.http_request(ip, port, follow_redirects=False, uri='/' + payload)
     
     if resp is None:
       return
     
-    if 'set-cookie' in resp.headers and 'inserted_by_nerve' in resp.headers['set-cookie']: 
+    if 'set-cookie' in resp.headers and 'inserted_by_vulnscannerflask' in resp.headers['set-cookie']: 
       self.rule_details = 'Identified CRLF Injection by inserting a Set-Cookie header'
       rds.store_vuln({
         'ip':ip,

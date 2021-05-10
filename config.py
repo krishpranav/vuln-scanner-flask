@@ -9,7 +9,7 @@ WEB_PORT = 8080
 WEB_DEBUG = False
 WEB_USER = os.environ.get('username', 'admin')
 WEB_PASSW = os.environ.get('password', 'admin')
-WEB_LOG = 'nerve.log'
+WEB_LOG = 'vulnscannerflask.log'
 
 # Web Security
 # Setting this to True will return all responses with security headers.
@@ -20,7 +20,7 @@ WEB_SEC_HEADERS = {
   'XSS':'1; mode=block',
   'XFO':'DENY',
   'RP':'no-referrer',
-  'Server':'NERVE'
+  'Server':'vulnscannerflask'
 }
 
 # Maximum allowed attempts before banning the remote origin
@@ -33,7 +33,7 @@ RDS_PORT = 6379
 RDS_PASSW = None
 
 # Scan Configuration
-USER_AGENT = 'NERVE'
+USER_AGENT = 'vulnscannerflask'
 
 # Default scan configuration
 # This will be used in the "Quick Start" scan. 
