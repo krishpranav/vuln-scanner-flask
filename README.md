@@ -24,3 +24,6 @@ bash start.sh
 ```
 
 - now head to http://0.0.0.0:8080 and start your scan
+
+
+- tool author: krishpranav
