@@ -1,5 +1,5 @@
 # vuln-scanner-flask
-A flask app for scanning(xss, sql) vulnerabilities on a website
+A flask app for scanning Vulnerabilities on a website, Network exploitation, Reconnaissance
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
