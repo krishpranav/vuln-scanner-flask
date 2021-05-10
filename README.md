@@ -11,11 +11,16 @@ A flask app for scanning Vulnerabilities on a website, Network exploitation, Rec
 - cd vuln-scanner-flask
 - sudo chmod +x *
 
+# Dependencies:
+```
+make sure you have redis-cli, python3, pip3
+```
 
 # Steps To Run This:
-- python3 -m venv env
-- source env/bin/activate
-- python3 -m pip install -r requirements.txt
-- python3 app.py
+```
+python3 -m venv env
+source env/bin/activate
+bash start.sh
+```
 
-- Now Go To http://127.0.0.1:5000/ and head your scan
+- now head to http://0.0.0.0:8080 and start your scan
