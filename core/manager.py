@@ -1,13 +1,9 @@
-#!/usr/bin/env python3
-
-# imports
 import os
 import sys
 import glob
 
-
 def get_rules(role):
-      rules = []
+  rules = []
   
   for r in glob.glob('rules/**/'):
     sys.path.insert(0, r)  

@@ -1,10 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*- 
-
-# imports
 import time
 
-from core.redis import rds
+from core.redis   import rds
 from core.logging import logger
 from core.port_scanner import Scanner
 from core.parser import ConfParser

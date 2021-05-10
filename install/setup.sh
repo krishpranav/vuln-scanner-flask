@@ -3,7 +3,7 @@ systemd_service="/lib/systemd/system/nerve.service"
 cwd="$(pwd)"
 password=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w ${1:-12} | head -n 1)
 
-if [ "$EUID" -ne 0 ]; then
+if [ "$EUID" -ne 0 ]; then 
   echo "Please run as root."
   exit 1
 fi
@@ -29,7 +29,7 @@ elif [ -f "/etc/os-release" ]; then
   fi
 fi
 
-if [ "$supported" == "no" ]; then
+if [ "$supported" == "no" ]; then 
   echo "Can only run on CentOS 7.x or Ubuntu 18.x"
   exit 1
 fi
@@ -111,16 +111,18 @@ if [ ! -f "$systemd_service" ]; then
   echo "
 [Unit]
 Description=NERVE
+
 [Service]
 Type=simple
 ExecStart=/bin/bash -c 'cd /opt/nerve/ && /usr/bin/python3 /opt/nerve/main.py'
+
 [Install]
 WantedBy=multi-user.target
 " >> "$systemd_service"
   chmod 644 "$systemd_service"
 fi
 
-if [ "$os" == "ubuntu" ]; then
+if [ "$os" == "ubuntu" ]; then 
   echo "Installing packages..."
   install_ubuntu
   echo "Starting Redis..."
@@ -154,7 +156,7 @@ configure_selinux
 
 systemctl is-active --quiet nerve
 if [ $? != 1 ]; then
-  echo
+  echo 
   echo
   echo "Setup Complete!"
   echo "You may access via the following URL: http://your_ip_here:8080 with the credentials as defined in config.py"

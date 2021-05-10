@@ -36,7 +36,7 @@ RDS_PASSW = None
 USER_AGENT = 'NERVE'
 
 # Default scan configuration
-# This will be used in the "Quick Start" scan.
+# This will be used in the "Quick Start" scan. 
 DEFAULT_SCAN = {
   'targets':{
     'networks':[],

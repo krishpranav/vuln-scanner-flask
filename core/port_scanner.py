@@ -1,13 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-# imports
 import requests
 import nmap
 import config
 
-from core.utils import Utils
-from core.triage import Triage
+from core.utils   import Utils
+from core.triage  import Triage
 from core.logging import logger
 from db import db_ports
 
@@ -90,5 +86,3 @@ class Scanner():
               data[host]['port_data'][port]['product'] = values['product']
     
     return data
-
-    

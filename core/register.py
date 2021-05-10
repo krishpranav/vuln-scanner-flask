@@ -1,13 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-# imports
 import threading
 
-from core.parser import ConfParser
-from core.utils import Utils
-from core.logging import logger
-from core.redis import rds
+from core.parser   import ConfParser
+from core.utils    import Utils
+from core.logging  import logger
+from core.redis    import rds
 
 class Register:
   def __init__(self):

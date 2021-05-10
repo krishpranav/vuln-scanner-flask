@@ -1,12 +1,9 @@
-#!/usr/bin/env python3
-
-# imports
 import sys
 import logging
 
 from config import LOG_LEVEL, WEB_LOG
 
-logger = logging.getLogger('VULN-SCANNER-FLASK')
+logger = logging.getLogger('NERVE')
 level  = logging.getLevelName(LOG_LEVEL)
 logger.setLevel(level)
 

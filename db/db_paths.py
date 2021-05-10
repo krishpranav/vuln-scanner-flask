@@ -1,7 +1,7 @@
 
 COMMON_WEB_PATHS = [
-                 '/', '/pub', '/share', '/uploads', '/files', '/docs',
-                 '/downloads', '/upload', '/uploads', '/export', '/doc', '/conf', '/config',
+                 '/', '/pub', '/share', '/uploads', '/files', '/docs', 
+                 '/downloads', '/upload', '/uploads', '/export', '/doc', '/conf', '/config', 
                  '/temp', '/tmp', '/db', '/database', '/src', '/source', '/lib', '/root', '/log','/logs',
                  '/shares', '/exports', '/client', '/clients', '/exports', '/test', '/tests', '/databases',
                  '/webcgi/', '/bin', '/cgi', '/cgi-bin',  '/cgis', '/scripts', '/members', '/private', '/media',

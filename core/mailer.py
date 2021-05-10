@@ -1,19 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-# imports
 import smtplib
 import ssl
 
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.header import Header
-from email.utils import formataddr
+from email.mime.multipart  import MIMEMultipart
+from email.mime.text       import MIMEText
+from email.header          import Header
+from email.utils           import formataddr
 
 from core.redis import rds
 from core.utils import Utils
 
-# function for sending email
 def send_email(settings, data=None):
   utils = Utils()
   
@@ -82,3 +77,5 @@ def send_email(settings, data=None):
   
   except Exception as e:
     return ('Message was could not be sent {}'.format(e), 500)
+
+  

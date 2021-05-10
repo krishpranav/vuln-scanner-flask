@@ -1,17 +1,13 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-# imports
 import json
 import time
 import ipaddress
 import requests
 
-from core.redis import rds
-from core.utils import Network, Integration
+from core.redis   import rds
+from core.utils   import Network, Integration
 from core.logging import logger
-from core.parser import ConfParser
-from core.mailer import send_email
+from core.parser  import ConfParser
+from core.mailer  import send_email
 
 def schedule_ips(networks, excluded_networks):
   for network in networks: 

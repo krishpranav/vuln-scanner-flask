@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-# imports
 import csv
 import jinja2
 import xml.etree.ElementTree as xml

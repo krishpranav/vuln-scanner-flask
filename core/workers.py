@@ -1,8 +1,8 @@
 import threading
 
-from bin.scanner import scanner
-from bin.attacker import attacker
-from bin.scheduler import scheduler
+from bin.scanner    import scanner
+from bin.attacker   import attacker
+from bin.scheduler  import scheduler
 
 
 def start_workers():
