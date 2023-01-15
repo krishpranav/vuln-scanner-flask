@@ -3,7 +3,7 @@ aniso8601==8.0.0
 Babel==2.8.0
 bcrypt==3.1.7
 beautifulsoup4==4.9.1
-bs4==0.0.1
+bs4
 certifi==2020.6.20
 cffi==1.14.0
 chardet==3.0.4
@@ -12,9 +12,6 @@ cryptography==3.0
 decorator==4.4.2
 dnspython==2.0.0
 docutils==0.16
-Flask==1.1.2
-Flask-HTTPAuth==4.1.0
-Flask-RESTful==0.3.8
 html5lib==1.1
 idna==2.10
 imagesize==1.2.0
@@ -51,6 +48,12 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 urllib3==1.25.9
-validators==0.18.1
+validators
 webencodings==0.5.1
 Werkzeug==1.0.1
+nmap
+flask_httpauth
+flask_restful 
+flask
+validators
+requests
