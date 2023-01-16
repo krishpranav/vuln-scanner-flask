@@ -57,7 +57,22 @@ password: admin
 <img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/quick_scan_page.png"  width="600" height="300">
 
 - Planned / Assigned Scanning Page
-<img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/assessment_page.png"  width="600" height="300">
+<img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/assessment/quick_scan_page.png"  width="600" height="300">
+
+- Target Adding Page
+<img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/assessment/targets_page.png"  width="600" height="300">
+
+- Dictionary Attack Page
+<img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/assessment/dictionary_attack_page.png"  width="600" height="300">
+
+- Network Scanning Assessment
+<img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/assessment/network_scanning_assesment.png"  width="600" height="300">
+
+- Schedule Assessment:
+<img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/assessment/schedule_assessment.png"  width="600" height="300">
+
+- Get Notification After Assessment Completed Page:
+<img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/scanning/assessment/get_notification.png"  width="600" height="300">
 
 - Output Page
 <img src="https://raw.githubusercontent.com/krishpranav/vuln-scanner-flask/master/images/output_page/output_page.png"  width="600" height="300">
