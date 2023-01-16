@@ -1,4 +1,2 @@
-2023-01-16 15:51:49,715 - INFO - 2246 - Storing the new configuration
-2023-01-16 15:51:49,718 - INFO - 2246 - Scheduling network(s): 192.168.0.0/24
-2023-01-16 15:51:49,718 - INFO - 2246 - A scan was initiated
-2023-01-16 15:51:54,012 - INFO - 2246 - Starting a new session...
+2023-01-16 16:18:06,966 - INFO - 3090 - Attacker process started
+2023-01-16 16:18:06,967 - INFO - 3090 - Scheduler process started
