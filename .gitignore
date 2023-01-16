@@ -12,3 +12,5 @@ nohup.out
 .DS_Store
 
 dump.rdb
+
+log/vulnscannerflask.log
