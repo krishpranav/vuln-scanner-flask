@@ -10,3 +10,5 @@ nohup.out
 
 # system cache
 .DS_Store
+
+dump.rdb
