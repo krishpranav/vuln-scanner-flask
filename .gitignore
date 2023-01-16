@@ -1,4 +1,12 @@
+#virtual environment
 env
+
+# ide cache
 .vscode/
 .idea/
+
+# nohup
 nohup.out
+
+# system cache
+.DS_Store
